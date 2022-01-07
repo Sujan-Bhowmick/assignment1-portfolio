@@ -4,7 +4,8 @@ body{
 }
 .font-headline{
     font-size: 50px;
-}.font-middle{
+}
+.font-middle{
     font-size: 40px;
 }
 .orange-color{
@@ -31,30 +32,47 @@ body{
 .blue-color{
     color:blue
 }
-
-.third-width{
-    width: 33.3%;
-    padding: 3% 3%;
-    box-shadow:5px 5px 5px 5px grey;
-    width: 25%;
+.third-width1{
+    box-shadow:  10px 10px 30px rgb(158, 4, 125);
+    width: 30%;
     margin-right: 3%;
-    
+    margin-right: 3%;
+    padding-left: 3%;
+    border-radius: 10px;
+    background-color: rgb(224, 199, 224);   
 }
-.third-width img{
-    width: 80%;
+.third-width2{
+    box-shadow:  10px 10px 30px rgb(4, 158, 63);
+    width: 30%;
+    margin-right: 3%;
+    margin-right: 3%;
+    padding-left: 3%;
+    border-radius: 10px;
+    background-color: rgb(192, 216, 198);   
+}
+.third-width3{
+    box-shadow:  10px 10px 30px rgb(37, 4, 158);
+    width: 30%;
+    margin-right: 3%;
+    margin-right: 3%;
+    padding-left: 3%;
+    border-radius: 10px;
+    background-color: rgb(183, 180, 204);   
+}
+.third-width1 img{
+    width: 100%;
+    height: 50%;
+}
+.third-width2 img{
+    width: 100%;
+    height: 50%;
+}
+.third-width3 img{
+    width: 100%;
     height: 50%;
 }
 .text{
     text-align: center;
-}
-#mission-id{
-    background-color: rgb(231, 226, 221);
-}
-#vission-id{
-    background-color: rgb(255, 224, 225);
-}
-#goal-id{
-background-color:rgb(214, 216, 230);
 }
 
 .link-button{
@@ -74,8 +92,15 @@ background-color:rgb(214, 216, 230);
     color: rgb(62, 57, 90);
 }
 .box-div{
-
-padding-left: 80px ;
-padding-bottom: 20px;
-background-color: rgb(235, 235, 245)
+    border-radius: 5%;
+    padding-left: 80px ;
+    padding-bottom: 20px;
+    background-color: rgb(235, 235, 245)
+}
+footer {
+    text-align:center;
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
